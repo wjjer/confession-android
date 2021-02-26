@@ -114,8 +114,9 @@ public static final String SERVER_HOST = "";
 服务端部署参见服务端应用 [**confession-server部署教程**](https://github.com/wjjer/confession-server)
 
 
+## 技术支持
 
-
+如果软件部署使用过程中出现任何问题可以关注公众号 `AB小站` 获取技术支持，关注AB小站可获得更多技术教程
 
 
 
