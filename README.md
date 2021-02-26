@@ -21,6 +21,7 @@
 <img alt="模板数据配置页面" src="images/template.gif"/>
     </div>
 </center>
+<br/>
 
 **模板数据配置页面**
 
@@ -30,7 +31,7 @@
     </div>
 </center>
 
-
+<br/>
 
 **生成告白**
 
@@ -40,11 +41,12 @@
     </div>
 </center>
 
+<br/>
+
 **开始告白**
 
 <center>
   <div style="width: 40%;">
-        <span style="font-weight:bold;">开始告白</span>
     	<img alt="下载在线模板" src="images/share.gif" />
     </div>
 </center>
