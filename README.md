@@ -12,6 +12,32 @@
 
 ## 应用展示
 
+**模板数据配置页面**
+
+![配置数据模板](images/template.gif)
+
+
+
+**下载在线模板**
+
+![下载数据模板](images/template-down.gif)
+
+
+
+**生成我的告白**
+
+![生成我的告白](images/generate.gif)
+
+
+
+
+
+**开始我的告白**
+
+![分享告白](images/share.gif)
+
+
+
 
 
 
@@ -48,7 +74,7 @@ git clone https://github.com/wjjer/confession-android.git
 
 2. 修改必要配置文件
 
-修改 `vip.ablog.confession.global.Constant `文件
+修改 vip.ablog.confession.global.Constant 文件
 
 ~~~shell
 # 改为你的confession-server地址
@@ -59,7 +85,7 @@ public static final String SERVER_HOST = "";
 
 
 
-3. 服务端部署 `confession-server` 部署
+3. 服务端部署 confession-server 部署
 
 服务端部署参见服务端应用 [**confession-server部署教程**](https://github.com/wjjer/confession-server)
 
