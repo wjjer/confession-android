@@ -2,17 +2,47 @@
 
 # confession-android
 
+**应用的开源服务端请前往：[confession-server](https://github.com/wjjer/confession-server) 查看**
+
 
 
 ## 应用介绍
 
+confession-android 项目中文名为 **告白吧**，是一款基于安卓开发的网页告白生成器，支持在模板商店中下载告白网页模板，下载后可以对模板进行个性化定制，编辑属于自己的个性化模板，可以根据已经配置好的模板生成唯美的告白页面，告白页面可以生成二维码进行分享
 
+:rose: 支持在模板商店下载各式的告白网页模板
+
+:rose: 支持配置网页表白模板，完全的个性化定制
+
+:rose: 支持本地导入 zip 格式的告白页面模板，基于freemarker引擎生成页面
+
+:rose: 支持一键 **二维码分享告白页面**
+
+
+
+
+
+## 技术架构
+
+:white_check_mark: 安卓端基于 [**Kotlin** ](https://www.kotlincn.net/)与 java 混合开发
+
+:white_check_mark: 底层使用 [**FreeMarker Java Template Engine**](https://freemarker.apache.org/) 模板引擎渲染页面
+
+:white_check_mark: 基于[ **Okhttp3**  ](https://square.github.io/okhttp/4.x/okhttp/okhttp3/)封装网络请求
+
+:white_check_mark: 使用 [**BaseRecyclerViewAdapterHelper**](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) 作为RecycleView适配器
+
+:white_check_mark: 基于 [**yanzhenjie/AndPermission**](https://github.com/yanzhenjie/AndPermission) 处理应用层权限请求处理
+
+:white_check_mark: 使用 [**ZXing**](https://github.com/zxing/zxing) 处理应用端二维码生成
 
 
 
 
 
 ## 应用展示
+
+
 
 **模板数据配置页面**
 
@@ -50,22 +80,6 @@
     	<img alt="下载在线模板" src="images/share.gif" />
     </div>
 </center>
-
-
-## 技术架构
-
-:white_check_mark: 安卓端基于 [**Kotlin** ](https://www.kotlincn.net/)与 java 混合开发
-
-:white_check_mark: 底层使用 [**FreeMarker Java Template Engine**](https://freemarker.apache.org/) 模板引擎渲染页面
-
-:white_check_mark: 基于[ **Okhttp3**  ](https://square.github.io/okhttp/4.x/okhttp/okhttp3/)封装网络请求
-
-:white_check_mark: 使用 [**BaseRecyclerViewAdapterHelper**](https://github.com/CymChad/BaseRecyclerViewAdapterHelper) 作为RecycleView适配器
-
-:white_check_mark: 基于 [**yanzhenjie/AndPermission**](https://github.com/yanzhenjie/AndPermission) 处理应用层权限请求处理
-
-:white_check_mark: 使用 [**ZXing**](https://github.com/zxing/zxing) 处理应用端二维码生成
-
 
 
 
