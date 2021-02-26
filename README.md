@@ -14,39 +14,40 @@
 
 ## 应用展示
 
-
+**模板数据配置页面**
 
 <center class="half">
     <div style=" width: 40%;">
-        <span style="font-weight:bold;">模板数据配置页面</span>
-        <img alt="模板数据配置页面" src="images/template.gif"/>
+<img alt="模板数据配置页面" src="images/template.gif"/>
     </div>
-    <div style="width: 40%;">
-        <span style="font-weight:bold;">下载在线模板</span>
-		<img alt="下载在线模板" src="images/template-down.gif" />
+</center>
+
+**模板数据配置页面**
+
+ <center class="half">
+  <div style=" width: 40%;">
+    	<img alt="下载在线模板" src="images/template-down.gif" />
     </div>
 </center>
 
 
+
+**生成告白**
 
 <center>
-    <div style="width: 40%;">
-    	<br/>
-		<br/>
-        <span style="font-weight:bold;">生成告白</span>
-        <img alt="模板数据配置页面" src="images/generate.gif"/>
-    </div>
-    <div style="width: 40%;">
-        <br/>
-		<br/>
-        <span style="font-weight:bold;">开始告白</span>
-		<img alt="下载在线模板" src="images/share.gif" />
+    <div style=" width: 40%;">
+        <img alt="生成告白" src="images/generate.gif"/>
     </div>
 </center>
 
+**开始告白**
 
-
-
+<center>
+  <div style="width: 40%;">
+        <span style="font-weight:bold;">开始告白</span>
+    	<img alt="下载在线模板" src="images/share.gif" />
+    </div>
+</center>
 
 
 ## 技术架构
