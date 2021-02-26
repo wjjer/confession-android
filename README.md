@@ -16,112 +16,33 @@
 
 
 
-<center>
-    <div style="float: left; width: 40%;">
+<center class="half">
+    <div style=" width: 40%;">
         <span style="font-weight:bold;">模板数据配置页面</span>
         <img alt="模板数据配置页面" src="images/template.gif"/>
-        <br/>
     </div>
-    <div style="float: left;width: 40%;">
+    <div style="width: 40%;">
         <span style="font-weight:bold;">下载在线模板</span>
-        <br/>
 		<img alt="下载在线模板" src="images/template-down.gif" />
     </div>
 </center>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <center>
-    <div style="float: left; width: 40%;">
+    <div style="width: 40%;">
     	<br/>
 		<br/>
         <span style="font-weight:bold;">生成告白</span>
-        <br/>
         <img alt="模板数据配置页面" src="images/generate.gif"/>
     </div>
-    <div style="float: left;width: 40%;">
+    <div style="width: 40%;">
         <br/>
 		<br/>
         <span style="font-weight:bold;">开始告白</span>
-        <br/>
 		<img alt="下载在线模板" src="images/share.gif" />
     </div>
 </center>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
