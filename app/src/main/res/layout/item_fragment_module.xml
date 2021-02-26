@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="@dimen/dp_4"
+    tools:context=".ui.activity.ui.main.ResDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/iv_fragment_module_cover"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:id="@+id/tv_fragment_module_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/dp_10"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="@dimen/sp_18" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="10"
+                android:gravity="center"
+                android:layout_weight="4">
+
+                <Button
+                    android:id="@+id/btn_fragment_module_mgr"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/border_xuxian_pink"
+                    android:layout_weight="4"
+                    android:text="配置数据" />
+
+                <Button
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:id="@+id/btn_fragment_module_del"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/border_xuxian"
+                    android:layout_weight="4"
+                    android:text="长按删除" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

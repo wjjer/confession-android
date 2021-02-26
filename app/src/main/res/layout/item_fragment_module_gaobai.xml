@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="@dimen/dp_4"
+    tools:context=".ui.activity.ui.main.ResDetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/dp_4"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            tools:ignore="Suspicious0dp">
+
+            <ImageView
+                android:id="@+id/iv_fragment_gaobai_cover"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:scaleType="fitCenter"
+                android:src="@drawable/list_icon"
+                tools:ignore="Suspicious0dp" />
+
+            <TextView
+                android:id="@+id/tv_fragment_gaobai_name"
+                android:layout_width="0dp"
+                android:paddingLeft="@dimen/dp_10"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="left|center"
+                android:textStyle="bold"
+                android:text="阿里"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_18" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/btn_fragment_gaobai_mgr"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/border_xuxian_pink"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:text="分享告白" />
+
+                <Button
+                    android:id="@+id/btn_fragment_gaobai_del"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:background="@drawable/border_xuxian"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:text="长按删除" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

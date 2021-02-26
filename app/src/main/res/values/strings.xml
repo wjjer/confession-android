@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">告白吧</string>
+    <string name="modules">模板</string>
+    <string name="add">新建告白</string>
+    <string name="title_home">首页</string>
+    <string name="title_mine">我</string>
+    <string name="title_activity_res_details">ResDetailsActivity</string>
+    <string name="tab_text_1">我的告白</string>
+    <string name="tab_text_2">告白教程</string>
+    <string name="tab_text_3">我的模板</string>
+    <string name="tab_text_4">模板商店</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="gaobai_content1">
+        \n\n
+        1. 首先在【模板】→【我的模板】中，配置好模板数据，填写完整模板信息，保存后，点击模板可以预览模板信息。\n
+        2. 然后在【首页】点击+号进入【新建告白】页面，输入基本信息后，选择第1步中自己配置好数据的模板，点击保存按钮，即可生成告白。\n
+        3. 告白生成后，点击可以预览告白信息，点击【分享】按钮后将告白部署至服务器，然后生成告白链接，就可以分享给你爱的那个ta。
+    </string>
+    <string name="gaobai_content2">
+        \n\n
+        1. 本项目的所有模板会存储在：根目录/chaseLover/template下。\n
+        2. 模板规范结构如下：
+        \n|——template
+        \n&#12288;|——templateName （模板名称）
+        \n&#12288;&#12288;|— — css
+        \n&#12288;&#12288;|— — js
+        \n&#12288;&#12288;|— — static
+        \n&#12288;&#12288;|— — index.ftl
+        \n&#12288;&#12288;|— — index.html
+        \n&#12288;&#12288;|— — cover.jpg\n
+        3. 导入模板时，要采用基于GBK编码压缩的*.zip格式文件，压缩时要包含templateName目录。\n
+    </string>
+    <string name="no_gaobai">你还没有告白过呢~</string>
+    <string name="use_info">
+        \n
+        1. 告白的名称（文件名）为必填项，只支持英文和汉字，且有多个告白时名字不能重复。\n
+        2. 选择模板时，不建议模板过多，且限制文件大小为10M。\n
+        3. 告白生成后，默认会在服务器端保留24小时，后期可能根据使用建议调整。\n
+        4. 每天限制生成5次告白，后期可能根据使用建议调整。
+
+    </string>
+    <string name="setting_data_info">
+        \n
+        1. 数据配置的所有数据项均为非必填项。\n
+        2. 如果数据需要换行，则输入HTML的br即可，遵循HTML规范。\n
+        3. 此版本数据信息配置后，尚不支持修改，请及时做好备份，下一版本会支持。
+    </string>
+    <string name="error_invalid_password">密码不能小于6位</string>
+    <string name="error_field_required">邮箱不能小于6位</string>
+    <string name="login">注册登录</string>
+</resources>

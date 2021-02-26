@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.ui.home.GenerateActivity">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/sp_14"
+            android:layout_marginRight="@dimen/sp_14"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_4"
+                android:text="基本信息"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="告白的名称:"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/sp_18" />
+
+                <EditText
+                    android:id="@+id/et_module"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="例如：对王大锤的告白"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/lightgray"
+                    android:textSize="@dimen/sp_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="他/她的名字:"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/sp_18" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="例如：王大锤"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/lightgray"
+                    android:textSize="@dimen/sp_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="他/她的绰号:"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/sp_18" />
+
+                <EditText
+                    android:id="@+id/et_nick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="例如：锤子"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/lightgray"
+                    android:textSize="@dimen/sp_18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="他/她的年龄:"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/sp_18" />
+
+                <EditText
+                    android:id="@+id/et_age"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_nick"
+                    android:hint="例如：18"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColorHint="@color/lightgray"
+                    android:textSize="@dimen/sp_18" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:layout_marginTop="@dimen/dp_40"
+                android:layout_marginRight="@dimen/dp_4"
+                android:text="模板信息"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_module"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/sp_14"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+
+                <Button
+                    android:id="@+id/btn_select"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_margin="@dimen/dp_4"
+                    android:background="@drawable/border_xuxian"
+                    android:text="选择模板"
+                    tools:ignore="Suspicious0dp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:layout_marginTop="@dimen/dp_40"
+                android:layout_marginRight="@dimen/dp_4"
+                android:text="使用说明"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="5dp"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="@color/grey"
+                    android:text="@string/use_info"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fb_generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/pink"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/dp_10"
+            app:srcCompat="@android:drawable/ic_menu_save" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</ScrollView>
