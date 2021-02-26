@@ -31,6 +31,45 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <center>
     <div style="float: left; width: 40%;">
     	<br/>
@@ -47,34 +86,6 @@
 		<img alt="下载在线模板" src="images/share.gif" />
     </div>
 </center>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
